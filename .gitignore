@@ -18,9 +18,11 @@ data/simple_chart
 !/plugins/system_update.py
 !/plugins/plugin_manager.py
 !/plugins/node_red.py
+!/plugins/backup_settings.py
 /plugins/manifests/*
 !/plugins/manifests/proto.manifest
 !/plugins/manifests/node_red.manifest
+!/plugins/manifests/backup_settings.manifest
 /templates/*
 !/templates/base.html
 !/templates/home.html
@@ -35,10 +37,12 @@ data/simple_chart
 !/templates/restarting.html
 !/templates/runonce.html
 !/templates/node_red.html
+!/templates/backup_settings.html
 /static/docs/plugins/*
 !/static/docs/plugins/proto-docs.html
 !/static/docs/plugins/system_update-docs.html
 !/static/docs/plugins/node-red-docs.html
+!/static/docs/plugins/backup_settings-docs.html
 static/scripts/chart.umd.min.js
 static/scripts/chartjs-adapter-luxon.umd.min.js
 static/scripts/d3.min.js
